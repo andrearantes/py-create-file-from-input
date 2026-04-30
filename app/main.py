@@ -1,4 +1,4 @@
-def main():
+def main() -> None:
     name_base = input("policy")
     name_file = f"{name_base}.txt"
     # ... collect content ...
