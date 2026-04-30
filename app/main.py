@@ -2,9 +2,9 @@ def main() -> None:
     name_base = input("Enter name of the file:")
     name_file = f"{name_base}.txt"
     content = []
-    print("Digite o conteúdo (digite 'stop' para finalizar)")
+    print("Enter the content (enter 'stop' for finish)")
     while True:
-        linha = input("Digite a próxima linha do conteúdo:")
+        linha = input("Enter new line of content:")
         if linha == "stop":
             break
         content.append(linha)
