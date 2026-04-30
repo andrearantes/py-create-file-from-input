@@ -11,5 +11,6 @@ def main() -> None:
     with open(name_file, "w") as file:
         file.write("\n".join(content))
 
+
 if __name__ == "__main__":
     main()
