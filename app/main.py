@@ -1,5 +1,5 @@
 def main() -> None:
-    name_base = input("policy")
+    name_base = input("Enter name of the file:")
     name_file = f"{name_base}.txt"
     content = []
     print("Digite o conteúdo (digite 'stop' para finalizar)")
